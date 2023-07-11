@@ -154,9 +154,21 @@ a {
   width: 29rem;
   height: 33.625rem;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
   border-radius: 18.75rem 18.75rem 0rem 0rem;
+}
+.featured_flowers_title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.1875rem;
+  text-decoration: underline;
+  -moz-text-decoration: underline;
+  background: #fff;
+  padding-top: 2rem;
+  width: 100%;
+  text-align: center;
 }
 /* featured flowers end */
 /* hot deals start */
