@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  color: #272727;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  width: 1280px;
+  margin: auto;
+}
+.btn {
+  border-radius: 0.5rem;
+  background: #e55473;
+  padding: 1rem 2rem;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgba(71, 125, 17, 0.15);
+  color: #111010;
+}
+.section_header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.header_title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.header_discription {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  max-width: 38rem;
+  margin: auto;
+}
+.bg_sweet_pink {
+  background: rgba(167, 33, 98, 0.15);
+}
+.bg_sweet_sky {
+  background: rgba(5, 151, 160, 0.15);
+}
+.bg_dark_khaki {
+  background: rgba(71, 125, 17, 0.15);
+}
+.self_center {
+  align-self: center;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+/* common css end */
+/* banner start */
+#banner {
+  /* height: 100vh; */
+  background: rgba(229, 84, 115, 0.1);
+}
+.banner_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 9.9rem 0;
+  background: url("../images/pngwing\ 10.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 37rem auto;
+}
+#banner .banner_info {
+  max-width: 43.4rem;
+}
+#banner .banner_title {
+  font-size: 5rem;
+  font-weight: 800;
+}
+#banner .banner_discription {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin: 2rem 0;
+}
+/* banner end */
+/* flowers category start */
+#flower_category {
+  padding-top: 6rem;
+}
+.flower_category_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+#flower_category .category_column {
+  max-width: 400px;
+}
+#flower_category .flower_item_box {
+  width: 100%;
+  height: 400px;
+  display: block;
+  position: relative;
+}
+#flower_category .flower_item_box .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(39, 39, 39, 0.4);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+#flower_category .flower_item_box:hover .overlay {
+  opacity: 0;
+}
+#flower_category .flower_item_box .overlay .name {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+}
+#flower_category .category_column img,
+#flower_category .category_column video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* flowers category end */
+/* featured flowers start */
+#featured_flowers {
+  padding: 11.12rem 0 8rem;
+}
+#featured_flowers .featured_flowers_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+}
+#featured_flowers .flower_window {
+  width: 29rem;
+  height: 33.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 18.75rem 18.75rem 0rem 0rem;
+}
+/* featured flowers end */
+/* hot deals start */
+#hot_deal {
+  background: rgba(229, 84, 115, 0.05);
+}
+#hot_deal .hot_deal_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6.25rem;
+  gap: 1.5rem;
+}
+#hot_deal .hot_deal_info {
+  max-width: 42rem;
+  text-align: center;
+}
+#hot_deal .hot_deal_title {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+#hot_deal .hot_deal_discription {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+#hot_deal .hot_deal_title span {
+  color: #e55473;
+}
+#hot_deal .right_side_image {
+  width: 19.875rem;
+}
+/* hot deals end */
+/* instragram start */
+#instragram {
+  padding: 8rem 0;
+}
+#instragram .instragram_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+#instragram .flower_box {
+  max-width: 300px;
+}
+#instragram .flower_box img {
+  width: 100%;
+}
+/* instragram end */
+/* latest deal start */
+#latest_deal {
+  margin-bottom: 8rem;
+}
+#latest_deal .latest_content {
+  padding: 7.63rem 0;
+  background: url("../images/Rectangle\ 9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+#latest_deal .latest_deal_title {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+#latest_deal .latest_deal_description {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+#latest_deal form {
+  width: 60%;
+  margin: auto;
+}
+#latest_deal form input {
+  width: 75%;
+  padding: 1.3rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #fff;
+  margin-right: 0.5rem;
+}
+/* latest deal end */
+/* footer start */
+footer {
+  text-align: center;
+  background: #111010;
+  padding: 8rem 0;
+}
+footer .footer_info {
+  max-width: 40rem;
+  margin: auto;
+}
+footer .footer_title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+}
+footer .footer_title span {
+  color: #e55473;
+}
+footer .footer_discription {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+footer .footer_bottom {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* footer end */
